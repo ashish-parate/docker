@@ -14,4 +14,25 @@
 - docker start <container> "start cont"
 - cat /proc/meminfo "memory info "
 - cat /etc/os-release "os show"
--
+- docker exec <container> <command> "command inside the container "
+- docker exec -it <cont> bash "to enter the container"
+- docker image
+- docker pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+username/repo:tag
+ashish/nginx:vi
