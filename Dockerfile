@@ -1,6 +1,6 @@
 FROM centos:7
-LABLE "httpd"
 
+LABLE name= "httpd"
 
 RUN yum install httpd -y
 RUN echo hello /var/www/html/index.html
