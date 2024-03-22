@@ -20,9 +20,30 @@
 - docker pull
 
 
+   git clone https://github.com/ashish-parate/docker.git
+     ls
+     cd docker/
+     ls
+  docker build Dockerfile
+     docker build .
+     ls
 
-
-
+     docker system prune
+     clear
+     docker build .
+     docker ps
+   97  docker ps -a
+   98  docker images
+   99  docker run 063
+  100  docker images
+  101  docker run -p 80:80 063
+  102  docker images
+  103  docker ps
+  104  docker run -p 80:80 063
+  105  docker ps
+  106  docker images
+    docker run -d  -p 80:80 063
+    docker ps
 
 
 
