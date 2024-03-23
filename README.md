@@ -36,7 +36,8 @@
    98  docker images
    99  docker run 063
   100  docker images
-  101  docker run -p 80:80 063
+  101  docker run -p 80:80 063 ordocker run -d -p 80:80 86ab
+ 
   102  docker images
   103  docker ps
   104  docker run -p 80:80 063
